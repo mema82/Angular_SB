@@ -1,12 +1,4 @@
-//THE CONTROLLER
-
-var myApp = angular.module('myApp',[]);//Empty array b/c no dependancies needed yet
-
-//LINKS ABOVE CONTROLLER TO NAMESPACE
-
-myApp.controller('MyController',
-function MyController($scope) {
-$scope.developers = [
+[
   {
     "name":"Melissa_Malpica",
     "gitname":"Mema82",
@@ -98,6 +90,3 @@ $scope.developers = [
     "bio":" TIY Student"
   }
 ]
-});
-
-//BE SURE TO REMEMBER TO LINK MODULE TO THE APP
